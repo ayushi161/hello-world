@@ -1,0 +1,117 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">Persoanilty Perdiction Quiz </h1>
+  <p id="description"><b>Note:</b> Select the degree of agreeableness with the questions, 1 - not so much and 8 - very much</p>
+
+  <fieldset>
+    <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+    <legend>Personal Details</legend>
+    <!-- formally describes the purpose of the fieldset it is included inside. -->
+    <div>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   
+        </div>
+
+    <!-- ------------------Radio Buttons-------------------------------- -->
+    <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+        <div>
+           <div>
+      <label for="address-label">Age:</label>
+      <input type="Address" id="address" name="Address" placeholder="Enter Age here">   </div>
+  </fieldset>
+    
+  <fieldset>
+    <legend>Question 1</legend>
+   <div>
+      <label for="question">Rate your Openness (inventive/curious vs. consistent/cautious)...</label>
+      <p>
+        <input type="radio" name="option" value="1"> 1 &nbsp;
+        <input type="radio" name="option" value="2"> 2 &nbsp;
+        <input type="radio" name="option" value="3"> 3 &nbsp;
+        <input type="radio" name="option" value="4"> 4 &nbsp;
+        <input type="radio" name="option" value="5"> 5 &nbsp;
+        <input type="radio" name="option" value="6"> 6 &nbsp;
+        <input type="radio" name="option" value="7"> 7 &nbsp;
+        <input type="radio" name="option" value="8"> 8
+      </p>
+    </div>
+  </fieldset>
+      <fieldset>
+    <legend>Question 2</legend>
+   <div>
+      <label for="question">Rate your Neuroticism (friendly/compassionate vs. challenging/detached)...</label>
+      <p>
+        <input type="radio" name="option" value="1"> 1 &nbsp;
+        <input type="radio" name="option" value="2"> 2 &nbsp;
+        <input type="radio" name="option" value="3"> 3 &nbsp;
+        <input type="radio" name="option" value="4"> 4 &nbsp;
+        <input type="radio" name="option" value="5"> 5 &nbsp;
+        <input type="radio" name="option" value="6"> 6 &nbsp;
+        <input type="radio" name="option" value="7"> 7 &nbsp;
+        <input type="radio" name="option" value="8"> 8
+      </p>
+    </div>
+  </fieldset>
+      <fieldset>
+    <legend>Question 3</legend>
+   <div>
+      <label for="question">Rate your Conscientiousness (efficient/organized vs. easy-going/careless)...</label>
+      <p>
+        <input type="radio" name="option" value="1"> 1 &nbsp;
+        <input type="radio" name="option" value="2"> 2 &nbsp;
+        <input type="radio" name="option" value="3"> 3 &nbsp;
+        <input type="radio" name="option" value="4"> 4 &nbsp;
+        <input type="radio" name="option" value="5"> 5 &nbsp;
+        <input type="radio" name="option" value="6"> 6 &nbsp;
+        <input type="radio" name="option" value="7"> 7 &nbsp;
+        <input type="radio" name="option" value="8"> 8
+      </p>
+    </div>
+  </fieldset>
+      <fieldset>
+    <legend>Question 4</legend>
+   <div>
+      <label for="question">Rate your Agreeableness (friendly/compassionate vs. challenging/detached)...</label>
+      <p>
+        <input type="radio" name="option" value="1"> 1 &nbsp;
+        <input type="radio" name="option" value="2"> 2 &nbsp;
+        <input type="radio" name="option" value="3"> 3 &nbsp;
+        <input type="radio" name="option" value="4"> 4 &nbsp;
+        <input type="radio" name="option" value="5"> 5 &nbsp;
+        <input type="radio" name="option" value="6"> 6 &nbsp;
+        <input type="radio" name="option" value="7"> 7 &nbsp;
+        <input type="radio" name="option" value="8"> 8
+      </p>
+    </div>
+  </fieldset>
+      <fieldset>
+    <legend>Question 5</legend>
+   <div>
+      <label for="question">Rate your Extroversion (outgoing/energetic vs. solitary/reserved)...</label>
+      <p>
+        <input type="radio" name="option" value="1"> 1 &nbsp;
+        <input type="radio" name="option" value="2"> 2 &nbsp;
+        <input type="radio" name="option" value="3"> 3 &nbsp;
+        <input type="radio" name="option" value="4"> 4 &nbsp;
+        <input type="radio" name="option" value="5"> 5 &nbsp;
+        <input type="radio" name="option" value="6"> 6 &nbsp;
+        <input type="radio" name="option" value="7"> 7 &nbsp;
+        <input type="radio" name="option" value="8"> 8
+      </p>
+    </div>
+  </fieldset>
+      <fieldset>
+
+  <div id="submitbutton">
+    <button type="submit" id="submit">Submit</button>   </div>
+
+</form>
+  </div>
